@@ -1,0 +1,48 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+#sliderblock {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+#searchBlock {
+  display: flex;
+}
+
+#searchBlock input {
+  border: 1px solid #999;
+  width: 30%;
+  border-radius: 28px;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0ch;
+  font-weight: 500;
+  position: relative;
+  padding-left: 30px;
+}
+
+#arrow {
+  position: absolute;
+  background-color: #02d01b;
+  left: 393px;
+  top: 7px;
+  min-height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 13px;
+}
+#serchicon {
+  position: absolute;
+  left: 11px;
+  top: 13px;
+}
+#block {
+  position: relative;
+  top: 194px;
+  left: 495px;
+}
